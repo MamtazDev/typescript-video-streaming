@@ -1,12 +1,13 @@
+import "./Slide.css"
 import React from "react";
 import { VerifiedTooltip } from "../CustomCheckTooltips/CustomCheckTooltips";
 
 interface SlideProps {
 	href?: string;
-	imgSrc: string;
+	imgSrc?: string;
 	imgAlt?: string;
-	label: string;
-	views: string;
+	label?: string;
+	views?: string;
 	verified?: boolean | null;
 }
 

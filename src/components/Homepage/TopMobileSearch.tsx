@@ -23,8 +23,7 @@ function TopMobileSearch() {
 								/>
 								<InputGroup.Append>
 									<Button variant="dark">
-										<FontAwesomeIcon icon={faSearch} /> 
-										Fasearch
+										{/* <FontAwesomeIcon icon={faSearch} /> */} Fasearch
 									</Button>
 								</InputGroup.Append>
 							</InputGroup>

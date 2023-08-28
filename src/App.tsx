@@ -133,7 +133,7 @@ import "bootstrap/dist/css/bootstrap.css";
 
 import Navigation from "./components/Navigation/Navigation";
 import Sidebar from "./components/Sidebar/Sidebar";
-import Homepage from "./components/Homepage/Homepage";
+
 import Channels from "./components/Channels/Channels";
 import SingleChannel from "./components/SingleChannel/SingleChannel";
 import VideoPage from "./components/VideoPage/VideoPage";
@@ -152,6 +152,7 @@ import Settings from "./components/Settings/Settings";
 import Account from "./components/Account/Account";
 
 import { CustomScrollToTop } from "./components/Atomics/ScrollToTop/ScrollToTop";
+import Homepage from "./components/Homepage/Homepage";
 
 interface ContentProps {
   showMenu: boolean;
@@ -194,16 +195,16 @@ function Content(props: ContentProps) {
             <Route exact path="/">
               <Homepage />
             </Route>
-            <Route exact path="/channels">
+            <Route  path="/channels">
               <Channels />
             </Route>
-            <Route exact path="/single-channel">
+            <Route  path="/single-channel">
               <SingleChannel />
             </Route>
-            <Route exact path="/video-page">
+            <Route  path="/video-page">
               <VideoPage />
             </Route>
-            <Route exact path="/upload-video">
+            <Route  path="/upload-video">
               <UploadVideo />
             </Route>
             <Route exact path="/history">

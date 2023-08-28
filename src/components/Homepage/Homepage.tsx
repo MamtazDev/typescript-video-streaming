@@ -18,9 +18,10 @@ console.log("Oni chan clicked")
     <>
       <ContentWrapper>
         <Container fluid className="pb-0">
-          <TopMobileSearch />
+          {/* <TopMobileSearch /> */}
           <TopCategory />
           <hr />         
+          {/* <h2 onClick={handleClick}>Click me oni chan</h2> */}
           <VideoBlock />
           <hr className="mt-0" />
           <PopularChannels />
